@@ -1,7 +1,6 @@
 import React from 'react'
 import Box from '@material-ui/core/Box'
 import Typography from '@material-ui/core/Typography'
-
 import { makeStyles } from '@material-ui/core/styles'
 import List from '@material-ui/core/List'
 import ListItem, { ListItemProps } from '@material-ui/core/ListItem'
@@ -57,6 +56,16 @@ const Works: React.FC = () => {
                   </Avatar>
                 </ListItemAvatar>
                 <ListItemText primary='株式会社 コバ設備様' secondary='会社のホームページ作成を担当させていただきました。' />
+              </ListItemLink>
+            </ListItem>
+            <ListItem>
+              <ListItemLink href='https://kazuki-sako.github.io/react-sandbox/' target="_blank">
+                <ListItemAvatar>
+                  <Avatar>
+                    <FolderIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText primary='SandBox' secondary='Reactで作成したアプリ置き場（自分用）' />
               </ListItemLink>
             </ListItem>
           </List>
